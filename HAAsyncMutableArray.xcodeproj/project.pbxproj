@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A230AF2913010FF10028B5B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A230AF2813010FF10028B5B2 /* Foundation.framework */; };
-		A230AF3413010FF10028B5B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A230AF3313010FF10028B5B2 /* UIKit.framework */; };
 		A230AF3513010FF10028B5B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A230AF2813010FF10028B5B2 /* Foundation.framework */; };
-		A230AF3713010FF10028B5B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A230AF3613010FF10028B5B2 /* CoreGraphics.framework */; };
 		A230AF3A13010FF10028B5B2 /* libHAAsyncMutableArray.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A230AF2513010FF10028B5B2 /* libHAAsyncMutableArray.a */; };
 		A230AF4013010FF10028B5B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A230AF3E13010FF10028B5B2 /* InfoPlist.strings */; };
 		A230AF4313010FF10028B5B2 /* HAAsyncMutableArrayTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A230AF4213010FF10028B5B2 /* HAAsyncMutableArrayTests.h */; };
@@ -35,8 +33,6 @@
 		A230AF2813010FF10028B5B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A230AF2C13010FF10028B5B2 /* HAAsyncMutableArray-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HAAsyncMutableArray-Prefix.pch"; sourceTree = "<group>"; };
 		A230AF3213010FF10028B5B2 /* HAAsyncMutableArrayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HAAsyncMutableArrayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A230AF3313010FF10028B5B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A230AF3613010FF10028B5B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A230AF3D13010FF10028B5B2 /* HAAsyncMutableArrayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HAAsyncMutableArrayTests-Info.plist"; sourceTree = "<group>"; };
 		A230AF3F13010FF10028B5B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A230AF4113010FF10028B5B2 /* HAAsyncMutableArrayTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HAAsyncMutableArrayTests-Prefix.pch"; sourceTree = "<group>"; };
@@ -60,9 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A230AF3413010FF10028B5B2 /* UIKit.framework in Frameworks */,
 				A230AF3513010FF10028B5B2 /* Foundation.framework in Frameworks */,
-				A230AF3713010FF10028B5B2 /* CoreGraphics.framework in Frameworks */,
 				A230AF3A13010FF10028B5B2 /* libHAAsyncMutableArray.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				A230AF2813010FF10028B5B2 /* Foundation.framework */,
-				A230AF3313010FF10028B5B2 /* UIKit.framework */,
-				A230AF3613010FF10028B5B2 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

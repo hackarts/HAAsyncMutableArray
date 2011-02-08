@@ -1,7 +1,3 @@
 //
 // Prefix header for all source files of the 'HAAsyncMutableArrayTests' target in the 'HAAsyncMutableArrayTests' project
 //
-
-#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-#endif
