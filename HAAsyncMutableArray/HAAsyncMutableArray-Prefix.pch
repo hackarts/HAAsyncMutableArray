@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'HAAsyncMutableArray' target in the 'HAAsyncMutableArray' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

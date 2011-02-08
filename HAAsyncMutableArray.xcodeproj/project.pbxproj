@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A230AF2913010FF10028B5B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A230AF2813010FF10028B5B2 /* Foundation.framework */; };
+		A230AF3413010FF10028B5B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A230AF3313010FF10028B5B2 /* UIKit.framework */; };
+		A230AF3513010FF10028B5B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A230AF2813010FF10028B5B2 /* Foundation.framework */; };
+		A230AF3713010FF10028B5B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A230AF3613010FF10028B5B2 /* CoreGraphics.framework */; };
+		A230AF3A13010FF10028B5B2 /* libHAAsyncMutableArray.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A230AF2513010FF10028B5B2 /* libHAAsyncMutableArray.a */; };
+		A230AF4013010FF10028B5B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A230AF3E13010FF10028B5B2 /* InfoPlist.strings */; };
+		A230AF4313010FF10028B5B2 /* HAAsyncMutableArrayTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A230AF4213010FF10028B5B2 /* HAAsyncMutableArrayTests.h */; };
+		A230AF4513010FF10028B5B2 /* HAAsyncMutableArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A230AF4413010FF10028B5B2 /* HAAsyncMutableArrayTests.m */; };
+		A230AF501301102B0028B5B2 /* HAAsyncMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = A230AF4E1301102B0028B5B2 /* HAAsyncMutableArray.h */; };
+		A230AF511301102B0028B5B2 /* HAAsyncMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A230AF4F1301102B0028B5B2 /* HAAsyncMutableArray.m */; };
+		A24DCE6F1301C83800138749 /* MoreWarnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A24DCE6E1301C83800138749 /* MoreWarnings.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A230AF3813010FF10028B5B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A230AF1C13010FF10028B5B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A230AF2413010FF10028B5B2;
+			remoteInfo = HAAsyncMutableArray;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A230AF2513010FF10028B5B2 /* libHAAsyncMutableArray.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHAAsyncMutableArray.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A230AF2813010FF10028B5B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A230AF2C13010FF10028B5B2 /* HAAsyncMutableArray-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HAAsyncMutableArray-Prefix.pch"; sourceTree = "<group>"; };
+		A230AF3213010FF10028B5B2 /* HAAsyncMutableArrayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HAAsyncMutableArrayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A230AF3313010FF10028B5B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A230AF3613010FF10028B5B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A230AF3D13010FF10028B5B2 /* HAAsyncMutableArrayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HAAsyncMutableArrayTests-Info.plist"; sourceTree = "<group>"; };
+		A230AF3F13010FF10028B5B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A230AF4113010FF10028B5B2 /* HAAsyncMutableArrayTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HAAsyncMutableArrayTests-Prefix.pch"; sourceTree = "<group>"; };
+		A230AF4213010FF10028B5B2 /* HAAsyncMutableArrayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAAsyncMutableArrayTests.h; sourceTree = "<group>"; };
+		A230AF4413010FF10028B5B2 /* HAAsyncMutableArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAAsyncMutableArrayTests.m; sourceTree = "<group>"; };
+		A230AF4E1301102B0028B5B2 /* HAAsyncMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAAsyncMutableArray.h; sourceTree = "<group>"; };
+		A230AF4F1301102B0028B5B2 /* HAAsyncMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAAsyncMutableArray.m; sourceTree = "<group>"; };
+		A24DCE6E1301C83800138749 /* MoreWarnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MoreWarnings.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A230AF2213010FF10028B5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230AF2913010FF10028B5B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A230AF2E13010FF10028B5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230AF3413010FF10028B5B2 /* UIKit.framework in Frameworks */,
+				A230AF3513010FF10028B5B2 /* Foundation.framework in Frameworks */,
+				A230AF3713010FF10028B5B2 /* CoreGraphics.framework in Frameworks */,
+				A230AF3A13010FF10028B5B2 /* libHAAsyncMutableArray.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A230AF1A13010FF10028B5B2 = {
+			isa = PBXGroup;
+			children = (
+				A230AF2A13010FF10028B5B2 /* HAAsyncMutableArray */,
+				A230AF3B13010FF10028B5B2 /* HAAsyncMutableArrayTests */,
+				A24DCE6D1301C81500138749 /* Other Sources */,
+				A230AF2713010FF10028B5B2 /* Frameworks */,
+				A230AF2613010FF10028B5B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A230AF2613010FF10028B5B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A230AF2513010FF10028B5B2 /* libHAAsyncMutableArray.a */,
+				A230AF3213010FF10028B5B2 /* HAAsyncMutableArrayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A230AF2713010FF10028B5B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A230AF2813010FF10028B5B2 /* Foundation.framework */,
+				A230AF3313010FF10028B5B2 /* UIKit.framework */,
+				A230AF3613010FF10028B5B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A230AF2A13010FF10028B5B2 /* HAAsyncMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+				A230AF4E1301102B0028B5B2 /* HAAsyncMutableArray.h */,
+				A230AF4F1301102B0028B5B2 /* HAAsyncMutableArray.m */,
+				A230AF2B13010FF10028B5B2 /* Supporting Files */,
+			);
+			path = HAAsyncMutableArray;
+			sourceTree = "<group>";
+		};
+		A230AF2B13010FF10028B5B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A230AF2C13010FF10028B5B2 /* HAAsyncMutableArray-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A230AF3B13010FF10028B5B2 /* HAAsyncMutableArrayTests */ = {
+			isa = PBXGroup;
+			children = (
+				A230AF4213010FF10028B5B2 /* HAAsyncMutableArrayTests.h */,
+				A230AF4413010FF10028B5B2 /* HAAsyncMutableArrayTests.m */,
+				A230AF3C13010FF10028B5B2 /* Supporting Files */,
+			);
+			path = HAAsyncMutableArrayTests;
+			sourceTree = "<group>";
+		};
+		A230AF3C13010FF10028B5B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A230AF3D13010FF10028B5B2 /* HAAsyncMutableArrayTests-Info.plist */,
+				A230AF3E13010FF10028B5B2 /* InfoPlist.strings */,
+				A230AF4113010FF10028B5B2 /* HAAsyncMutableArrayTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A24DCE6D1301C81500138749 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A24DCE6E1301C83800138749 /* MoreWarnings.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A230AF2313010FF10028B5B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230AF501301102B0028B5B2 /* HAAsyncMutableArray.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A230AF2413010FF10028B5B2 /* HAAsyncMutableArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A230AF4813010FF10028B5B2 /* Build configuration list for PBXNativeTarget "HAAsyncMutableArray" */;
+			buildPhases = (
+				A230AF2113010FF10028B5B2 /* Sources */,
+				A230AF2213010FF10028B5B2 /* Frameworks */,
+				A230AF2313010FF10028B5B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HAAsyncMutableArray;
+			productName = HAAsyncMutableArray;
+			productReference = A230AF2513010FF10028B5B2 /* libHAAsyncMutableArray.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A230AF3113010FF10028B5B2 /* HAAsyncMutableArrayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A230AF4B13010FF10028B5B2 /* Build configuration list for PBXNativeTarget "HAAsyncMutableArrayTests" */;
+			buildPhases = (
+				A230AF2D13010FF10028B5B2 /* Sources */,
+				A230AF2E13010FF10028B5B2 /* Frameworks */,
+				A230AF2F13010FF10028B5B2 /* Resources */,
+				A230AF3013010FF10028B5B2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A230AF3913010FF10028B5B2 /* PBXTargetDependency */,
+			);
+			name = HAAsyncMutableArrayTests;
+			productName = HAAsyncMutableArrayTests;
+			productReference = A230AF3213010FF10028B5B2 /* HAAsyncMutableArrayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A230AF1C13010FF10028B5B2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A230AF1F13010FF10028B5B2 /* Build configuration list for PBXProject "HAAsyncMutableArray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A230AF1A13010FF10028B5B2;
+			productRefGroup = A230AF2613010FF10028B5B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A230AF2413010FF10028B5B2 /* HAAsyncMutableArray */,
+				A230AF3113010FF10028B5B2 /* HAAsyncMutableArrayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A230AF2F13010FF10028B5B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230AF4013010FF10028B5B2 /* InfoPlist.strings in Resources */,
+				A230AF4313010FF10028B5B2 /* HAAsyncMutableArrayTests.h in Resources */,
+				A24DCE6F1301C83800138749 /* MoreWarnings.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A230AF3013010FF10028B5B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A230AF2113010FF10028B5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230AF511301102B0028B5B2 /* HAAsyncMutableArray.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A230AF2D13010FF10028B5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230AF4513010FF10028B5B2 /* HAAsyncMutableArrayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A230AF3913010FF10028B5B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A230AF2413010FF10028B5B2 /* HAAsyncMutableArray */;
+			targetProxy = A230AF3813010FF10028B5B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A230AF3E13010FF10028B5B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A230AF3F13010FF10028B5B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A230AF4613010FF10028B5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A230AF4713010FF10028B5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A230AF4913010FF10028B5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24DCE6E1301C83800138749 /* MoreWarnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/HAAsyncMutableArray.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HAAsyncMutableArray/HAAsyncMutableArray-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A230AF4A13010FF10028B5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24DCE6E1301C83800138749 /* MoreWarnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/HAAsyncMutableArray.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HAAsyncMutableArray/HAAsyncMutableArray-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A230AF4C13010FF10028B5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24DCE6E1301C83800138749 /* MoreWarnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HAAsyncMutableArrayTests/HAAsyncMutableArrayTests-Prefix.pch";
+				INFOPLIST_FILE = "HAAsyncMutableArrayTests/HAAsyncMutableArrayTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A230AF4D13010FF10028B5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24DCE6E1301C83800138749 /* MoreWarnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HAAsyncMutableArrayTests/HAAsyncMutableArrayTests-Prefix.pch";
+				INFOPLIST_FILE = "HAAsyncMutableArrayTests/HAAsyncMutableArrayTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A230AF1F13010FF10028B5B2 /* Build configuration list for PBXProject "HAAsyncMutableArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230AF4613010FF10028B5B2 /* Debug */,
+				A230AF4713010FF10028B5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A230AF4813010FF10028B5B2 /* Build configuration list for PBXNativeTarget "HAAsyncMutableArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230AF4913010FF10028B5B2 /* Debug */,
+				A230AF4A13010FF10028B5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A230AF4B13010FF10028B5B2 /* Build configuration list for PBXNativeTarget "HAAsyncMutableArrayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230AF4C13010FF10028B5B2 /* Debug */,
+				A230AF4D13010FF10028B5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A230AF1C13010FF10028B5B2 /* Project object */;
+}
