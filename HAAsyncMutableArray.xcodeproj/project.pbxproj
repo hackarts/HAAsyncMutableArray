@@ -41,6 +41,7 @@
 		A230AF4E1301102B0028B5B2 /* HAAsyncMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAAsyncMutableArray.h; sourceTree = "<group>"; };
 		A230AF4F1301102B0028B5B2 /* HAAsyncMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAAsyncMutableArray.m; sourceTree = "<group>"; };
 		A24DCE6E1301C83800138749 /* MoreWarnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MoreWarnings.xcconfig; sourceTree = "<group>"; };
+		A2EBAC1E1301DB750015BB82 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		A230AF1A13010FF10028B5B2 = {
 			isa = PBXGroup;
 			children = (
+				A2EBAC1E1301DB750015BB82 /* README.md */,
 				A230AF2A13010FF10028B5B2 /* HAAsyncMutableArray */,
 				A230AF3B13010FF10028B5B2 /* HAAsyncMutableArrayTests */,
 				A24DCE6D1301C81500138749 /* Other Sources */,
