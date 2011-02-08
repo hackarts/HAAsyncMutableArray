@@ -50,7 +50,7 @@
 			if (blocks == nil) {
 				blocks = [[[NSMutableSet alloc] init] autorelease];
 			}
-			[blocks addObject:block];
+			[blocks addObject:[[block copy] autorelease]];
 			[blockCorral setObject:blocks forKey:key];
         }
     }
