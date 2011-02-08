@@ -41,22 +41,17 @@
 
 - (void)objectAtIndex:(NSUInteger)idx withBlock:(HAAsyncArrayBlock)block {
     @synchronized(self) {
-        @try {
+        if ([asyncArray count] > idx) {
             block([asyncArray objectAtIndex:idx]);
-        }
-        @catch (NSException *exception) {
-            if ([exception name] == NSRangeException) {
-                // array isn't populated yet; add the block to the corral                
-                NSNumber *key = [NSNumber numberWithUnsignedInteger:idx];
-                NSMutableSet *blocks = [blockCorral objectForKey:key];
-                if (blocks == nil) {
-                    blocks = [[[NSMutableSet alloc] init] autorelease];
-                }
-                [blocks addObject:block];
-                [blockCorral setObject:blocks forKey:key];
-            } else {
-                @throw;
-            }
+        } else {
+			// array isn't populated yet; add the block to the corral                
+			NSNumber *key = [NSNumber numberWithUnsignedInteger:idx];
+			NSMutableSet *blocks = [blockCorral objectForKey:key];
+			if (blocks == nil) {
+				blocks = [[[NSMutableSet alloc] init] autorelease];
+			}
+			[blocks addObject:block];
+			[blockCorral setObject:blocks forKey:key];
         }
     }
 }
@@ -75,7 +70,6 @@
                 block(obj);
             }
             [blocks removeAllObjects];
-            [blockCorral removeObjectForKey:key];
         }
     }
 }
